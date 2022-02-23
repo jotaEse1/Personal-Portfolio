@@ -1,0 +1,27 @@
+.menu {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    background-image: url(/public/patagonia-contact-full-roja.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-options {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.menu-options > a {
+    font-size: 3rem;
+    text-decoration: none;
+    text-align: center;
+}

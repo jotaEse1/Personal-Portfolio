@@ -1,0 +1,82 @@
+.toolkit {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #131212;
+}
+
+.toolkit > h4 {
+    font-size: var(--title);
+    font-weight: 500;
+    padding: 2rem;
+    text-align: center;
+}
+
+.toolkit > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.toolkit > div > svg {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.toolkit > div > img {
+    height: 4rem;
+}
+
+.html {
+    fill: #f06529
+}
+
+.css {
+    fill: #2965f1
+}
+
+.js {
+    fill: #ffcc00
+}
+
+.ts {
+    fill: #007acc
+}
+
+.react {
+    fill: #88dded
+}
+
+.node {
+    fill: #3c873a
+}
+
+.mongo {
+    fill: #3fa037
+}
+
+.git {
+    fill: #f1502f
+}
+
+.jest {
+    fill: #9b444c
+}
+
+.chai {
+    fill: #f7eed9
+}
+
+@media (max-width: 400px){
+    .toolkit > div > svg {
+      font-size: 2rem;
+      margin: 1rem;
+    }
+  
+  
+  }
