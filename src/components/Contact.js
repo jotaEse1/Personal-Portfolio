@@ -23,7 +23,7 @@ const Contact = () => {
                 <h5>You can find me here...</h5>
                 <div>
                     <motion.a whileHover={{scale: 1.1}}
-                        href='www.linkedin.com/in/joaquín-sanchez-004a23232'
+                        href='https://www.linkedin.com/in/joaqu%C3%ADnsanchez1/'
                         target='_blank'
                         rel='noreferrer'
                     >
