@@ -5,7 +5,7 @@ import {projectVariant} from '../animations/variants'
 
 const ExpenseTracker = () => {
     return (
-        <a href='https://jotaese1.github.io/expense-tracker/' target='_blank' rel='noreferrer'>
+        <a href='https://jexpense-tracker.herokuapp.com/' target='_blank' rel='noreferrer'>
             <motion.div 
                 className='project'
                 initial='hidden'
@@ -16,7 +16,7 @@ const ExpenseTracker = () => {
                 whileTap={{scale: 0.9}}
             >
                 <div className='project-image'>
-                    <img src='expense-tracker-full_396x182.jpeg' alt='expense-tracker'/>
+                    <img src={`${process.env.PUBLIC_URL}/expense-tracker-full_396x182.jpeg`} alt='expense-tracker'/>
                 </div>
                 <div className='project-details'>
                     <h4>Expense Tracker app</h4>

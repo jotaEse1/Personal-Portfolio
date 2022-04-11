@@ -22,7 +22,7 @@ const Toolkit = () => {
                 <SiCss3 className='css'/>
                 <SiJavascript className='js'/>
                 <SiTypescript className='ts'/>
-                <img src='d3logo.png' alt='d3icon'/>
+                <img src={`${process.env.PUBLIC_URL}/d3logo.png`} alt='d3icon'/>
                 <SiReact className='react'/>
                 <SiNodedotjs className='node'/>
                 <SiExpress className='ex'/>

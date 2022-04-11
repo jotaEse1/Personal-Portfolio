@@ -6,7 +6,7 @@ const AboutMe = () => {
             <div>
                 <h4>ABOUT ME</h4>
                 <p>
-                    My journey as a frontend developer started when I was studying accountancy in my fourth year, 
+                    My journey as a full stack developer started when I was studying accountancy in my fourth year, 
                     but I realized that I was not fully passionate about it and I decided to quit. Then I asked myself, 
                     "What's next?" and that's when programming first appeared in my life. My father, who is a 
                     programmer too, recommended me to learn programming and see if I liked it. I started at freeCodeCamp

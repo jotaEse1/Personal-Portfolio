@@ -8,9 +8,9 @@ const Presentation = () => {
             className='presentation'
             variants={presentationVariant}
         >
-            <h1>Joaquín Sanchez</h1>
+            <h1>Joaquín Sánchez</h1>
             <p>
-                I'm an Argentinian frontend developer who's passionate about web 
+                I'm an Argentinian Full-Stack Developer who's passionate about web 
                 development and loves to learn every day!
             </p>
             <a href='#projects'>Check my work</a>

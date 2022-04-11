@@ -5,7 +5,7 @@ import {projectVariant} from '../animations/variants'
 
 const CashRegister = () => {
     return (
-        <a href='https://jotaese1.github.io/cash-register/' target='_blank' rel='noreferrer'>
+        <a href='https://jcash-register.herokuapp.com/' target='_blank' rel='noreferrer'>
             <motion.div 
                 className='project'
                 initial='hidden'
@@ -16,7 +16,7 @@ const CashRegister = () => {
                 whileTap={{scale: 0.9}}
             >
                 <div className='project-image'>
-                    <img src='cash-register-full_397x182.jpeg' alt='cash-register'/>
+                    <img src={`${process.env.PUBLIC_URL}/cash-register-full_397x182.jpeg`} alt='cash-register'/>
                 </div>
                 <div className='project-details'>
                     <h4>Cash Register app</h4>

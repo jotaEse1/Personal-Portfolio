@@ -1,16 +1,16 @@
 import React from 'react';
 import ExpenseTracker from './ExpenseTracker';
 import CashRegister from './CashRegister';
-import Calculator from './Calculator';
+import Recost from './Recost';
 
 const Projects = () => {
     return (
         <div className='projects-container' id='projects'>
             <h4>MY PROJECTS</h4>
             <div className='projects'>
+                <Recost />
                 <ExpenseTracker />
                 <CashRegister />
-                <Calculator />
             </div>
         </div>
     );
