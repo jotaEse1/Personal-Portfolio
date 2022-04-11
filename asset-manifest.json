@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.f045027e.css",
-    "main.js": "/Personal-Portfolio/static/js/main.35ae32f7.js",
+    "main.css": "/Personal-Portfolio/static/css/main.b05f3d39.css",
+    "main.js": "/Personal-Portfolio/static/js/main.64c375a1.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/patagonia2-roja.jpg": "/Personal-Portfolio/static/media/patagonia2-roja.225b91b8a43ad3f73b42.jpg",
     "static/media/patagonia-contact-full-roja.jpg": "/Personal-Portfolio/static/media/patagonia-contact-full-roja.f5a0fa2d2787341f589b.jpg",
     "static/media/patagonia-roja.jpg": "/Personal-Portfolio/static/media/patagonia-roja.520fa77d53f9231b5d64.jpg",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.f045027e.css.map": "/Personal-Portfolio/static/css/main.f045027e.css.map",
-    "main.35ae32f7.js.map": "/Personal-Portfolio/static/js/main.35ae32f7.js.map",
+    "main.b05f3d39.css.map": "/Personal-Portfolio/static/css/main.b05f3d39.css.map",
+    "main.64c375a1.js.map": "/Personal-Portfolio/static/js/main.64c375a1.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f045027e.css",
-    "static/js/main.35ae32f7.js"
+    "static/css/main.b05f3d39.css",
+    "static/js/main.64c375a1.js"
   ]
 }
