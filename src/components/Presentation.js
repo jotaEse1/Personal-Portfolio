@@ -1,20 +1,15 @@
 import React from 'react';
-import {motion} from 'framer-motion';
-import { presentationVariant } from '../animations/variants';
 
 const Presentation = () => {
     return (
-        <motion.div 
-            className='presentation'
-            variants={presentationVariant}
-        >
+        <div className='presentation'>
             <h1>Joaquín Sánchez</h1>
-            <p>
+            <h5>
                 I'm an Argentinian Full-Stack Developer who's passionate about web 
                 development and loves to learn every day!
-            </p>
+            </h5>
             <a href='#projects'>Check my work</a>
-        </motion.div>
+        </div>
     );
 };
 

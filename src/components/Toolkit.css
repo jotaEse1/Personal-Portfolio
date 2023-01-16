@@ -68,8 +68,12 @@
     fill: #9b444c
 }
 
-.chai {
-    fill: #f7eed9
+.redux {
+    fill: #764abc
+}
+
+.php {
+    fill:#474A8A
 }
 
 @media (max-width: 400px){

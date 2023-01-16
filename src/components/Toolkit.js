@@ -8,9 +8,11 @@ import {SiCss3,
     SiNodedotjs, 
     SiExpress, 
     SiMongodb,
-    SiSolidity,
-    SiChai,
-    SiJest} from 'react-icons/si';
+    SiMysql,
+    SiRedux,
+    SiJest,
+    SiPhp
+} from 'react-icons/si';
 import {DiGit} from 'react-icons/di';
 
 const Toolkit = () => {
@@ -24,13 +26,14 @@ const Toolkit = () => {
                 <SiTypescript className='ts'/>
                 <img src={`${process.env.PUBLIC_URL}/d3logo.png`} alt='d3icon'/>
                 <SiReact className='react'/>
+                <SiRedux className="redux" />
                 <SiNodedotjs className='node'/>
                 <SiExpress className='ex'/>
                 <SiMongodb className='mongo'/>
-                <SiSolidity className='solidity'/>
+                <SiMysql />
+                <SiPhp className='php' />
                 <DiGit className='git'/>
                 <SiJest className='jest'/>
-                <SiChai className='chai'/>
             </div>
         </div>
     );

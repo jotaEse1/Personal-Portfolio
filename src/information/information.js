@@ -1,19 +1,24 @@
 export const recostInfo = {
     title: 'Recost',
     description: 'Recost is an application that helps pastry chefs in order to calculate the cost of their products faster. In it you will find three categories, Price list, Budgets and Recipes. In the Price list section you are able to add all ingredients used on a daily-basis, those areimportant to the Recipes section, where you can save all your recipes and see their cost too. Finally, in the Budget section you can either calculate a new budget manually or with the "fast" option where you choose a recipe and you get the cost of it instantly.',
-    image: 'recost-full_400x182.png',
-    url: 'https://recost.herokuapp.com/'
+    icons: ["SiReact", "SiTypescript", "SiNodedotjs", "SiExpress", "SiMongodb"],
+    url: 'https://jotaese1.github.io/recost-client/'
 }
-
-export const expenseInfo = {
-    title: 'Expense Tracker App',
-    description: "Are you trying to save money but you don't know where it goes? This app can help you with that. Expense Tracker app, as his name suggests, helps you to keep track of your daily expenditures. You can see your latest transactions, up to 6 months, in a chart where you are able to zoom and pan in case it's not legible. But, what if you want to see your expenditures in detail? Well, on the second page called 'Transactions' you can search and filter them by date, price, category or any combination that fits your necessities.",
-    image: 'expense-tracker-full_396x182.jpeg',
-    url: 'https://jexpense-tracker.herokuapp.com/'
+export const portyInfo = {
+    title: 'Porty',
+    description: "Porty is a comprehensive and user-friendly app that helps users create and manage their portfolio of stocks. The app is designed to provide a clear and easy to understand interface for tracking and analyzing the performance of your investments. With Porty, you can easily track the value of your portfolio and see how it changes over time with the help of a line chart and tree chart. The app also shows you the net result of every day, so you always have a clear overview of your portfolio performance.",
+    icons: ["SiReact", "SiTypescript", "SiRedux", "SiNodedotjs", "SiExpress", "SiMysql"],
+    url: 'https://jotaese1.github.io/Portfolio-tracker/'
 }
-export const cashInfo = {
-    title: 'Cash Register App',
-    description: "This application makes your life easier when giving change to your costumers. Cash register app calculates the change and details which currency unit to use, also has a chart and a table where you can see the current amount of money you have in your cash register. In case you can't stand white interfaces, you can change the color theme to dark!",
-    image: 'cash-register-full_397x182.jpeg',
-    url: 'https://jcash-register.herokuapp.com/'
+export const flashyInfo = {
+    title: 'Flashy',
+    description: "Flashy is a language learning app that helps users study and memorize new vocabulary of a new language. With Flashy, users can easily create decks of words and customize their study sessions. Users can import decks and track their progress. The app offers different memorization techniques such as flashcards, multiple choice questions and fill-in-the-blank exercises. Overall, Flashy is a comprehensive language learning tool that provides users with a variety of ways to study and improve their language skills.",
+    icons: ["SiReact", "SiTypescript", "SiRedux", "SiNodedotjs", "SiExpress", "SiMysql"],
+    url: 'https://jotaese1.github.io/flashcard-client/#/'
+}
+export const smartInfo = {
+    title: 'Smart Stock',
+    description: "The app is designed to streamline and simplify the daily operations of a business, specifically a company whose main activity is the sale of seeds to other companies. The app is an all-in-one solution for managing inventory, sales, purchases, and other important business functions. With this app, users can easily keep track of their inventory levels, set reorder points, and generate reports on sales and purchase history. The app also includes a user-friendly interface that makes it easy for users to navigate.",
+    icons: ["SiJavascript", "SiJquery", "SiBootstrap", "SiPhp", "SiMysql"],
+    url: 'https://ijbdistribuciones.com/login'
 }
